@@ -1,5 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { isNull, isZero } from './utils'
+
+isNull({})
 
 const App = () => {
   return (
